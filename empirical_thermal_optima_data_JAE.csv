@@ -1,0 +1,49 @@
+Host-parasite system,Transmission type,Measure of host performance ,Measure of individual-level parasitism ,Measure of population-level parasitism,ind_parasitism_topt,pop_parasitism_topt,host_topt_ind,host_topt_pop,ind_parasitism_rel_host,pop_parasitism_rel_host,ind_parasitism_TPC_peak,pop_parasitism_TPC_peak,host_TPC_peak,exclude_for_TPC,measures_nonindependent,References
+Culex pipiens Ð West Nile virus,vector,Adult reproduction weighted by lifespan,Infected days ,R0,23.5,24.5,15.9,15.9,7.6,8.6,intermediate,intermediate,intermediate,FALSE,TRUE,Shocket et al 2020
+Aedes aegypti Ð dengue virus,vector,Adult reproduction weighted by lifespan,Infected days,R0,29.3,29.1,27.6,27.6,1.7,1.5,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al 2017
+Aedes aegypti - Zika virus,vector,Adult reproduction weighted by lifespan,Infected days,R0,28.9,28.9,27.7,27.7,1.2,1.2,intermediate,intermediate,intermediate,FALSE,TRUE,Tesla et aal 2018
+Culex annulirostris Ð Ross River virus,vector,Adult reproduction weighted by lifespan,Infected days,R0,24,26.4,25.6,25.6,-1.6,0.8,intermediate,intermediate,intermediate,FALSE,TRUE,Shocket et al 2018a
+Anopholes gambiae - Plasmodium vivax,vector,Adult reproduction weighted by lifespan,Infected days,Transmission suitability,23.6,25,24.4,24.4,0.8,-0.6,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes gambiae - Plasmodium falciparum,vector,Adult reproduction weighted by lifespan,Infected days,Transmission suitability,23.4,25,24.4,24.4,1,-0.6,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes stephensi - Plasmodium vivax,vector,Adult reproduction weighted by lifespan,Infected days,Transmission suitability,23,24.6,24,24,-1,0.6,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes stephensi - Plasmodium falciparum,vector,Adult reproduction weighted by lifespan,Infected days,Transmission suitability,22.9,24.8,24,24,-1.1,0.8,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Culicoides Ð Bluetongue viral disease,vector,Density,Vector competence,Transmission suitability,28.7,26,23.3,23.3,5.4,2.7,intermediate,intermediate,intermediate,FALSE,TRUE,El Moustaid et al. 2021
+Culex tarsalis - Western equine encephalitis virus,vector,NA,Infected days,R0,18.8,23,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,Shocket et al 2020
+Culex tarsalis - West Nile virus,vector,NA,Infected days,R0,24.1,23.9,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,Shocket et al 2020
+Culex tarsalis - St. Louis encephalitis virus,vector,NA,Infected days,R0,23.9,24.1,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,Shocket et al 2020
+Aedes taeniorhynchus - Rift Valley fever virus,vector,NA,Infected days,R0,22,25.9,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,Shocket et al 2020
+Atelopus zeteki/cold-adapted amphibians - Batrachochytrium dendrobatidis,environment,Host temperature preference,Parasite growth rate on host ,Prevalence,26,20.5,17.9,10.5,8.1,10,warmest,intermediate,intermediate,TRUE,FALSE,Cohen et al. 2017
+Anaxyrus terrestris/warm-adapted amphibians - Batrachochytrium dendrobatidis,environment,Host temperature preference,Parasite growth rate on host ,Prevalence,10,15.9,24.1,23.9,-8,-14.1,coolest,intermediate,intermediate,TRUE,FALSE,Cohen et al. 2017
+Osteopilus septentrionalis/warm-adapted amphibians - Batrachochytrium dendrobatidis,environment,Host temperature preference,Parasite growth rate on host ,Prevalence,14,15.9,23,23.9,-8,-9,coolest,intermediate,intermediate,TRUE,FALSE,Cohen et al. 2017
+Eurypanopeus depressus - Loxothylacus panopaei,environment,Uninfected host survival,Parasite lifetime reproduction,R0,15.9,14.7,18.3,18.3,-2.4,-3.6,intermediate,intermediate,intermediate,FALSE,TRUE,Gehman et al. 2018
+Daphnia dentifera - Metschnikowia bicuspidata,environment,Uninfected intrinsic growth rate (r),Spore load,R0,20,26,26,26,-6,0,intermediate,warmest,warmest,TRUE,TRUE,Shocket et al. 2018b
+Daphnia magna Ð Ordospora colligata,environment,Lifetime reproduction,Spore load,R0,11.8,18.8,16.2,16.2,-4.4,2.6,intermediate,intermediate,intermediate,FALSE,TRUE,"Kirk et al. 2018, 2020"
+Biomphalaria spp. Ð Schistosoma mansoni,environment,Snail recruitment rate,Cercarial emergence rate,R0,25.9,21.7,22.1,22.1,3.8,-0.4,intermediate,intermediate,intermediate,FALSE,TRUE,Nguyen et al. 2021
+Mytilus edulis Ð Gymnophallus,environment,NA,Intensity,Prevalence,13.7,12.9,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,FALSE,Galaktionov et al. 2015
+Mytilus edulis Ð Himasthla,environment,NA,Intensity,Prevalence,10,10,NA,NA,NA,NA,coolest,coolest,NA,TRUE,FALSE,Galaktionov et al. 2015
+Mytilus edulis Ð Renicola,environment,NA,Intensity,Prevalence,22,22,NA,NA,NA,NA,warmest,warmest,NA,TRUE,FALSE,Galaktionov et al. 2015
+Helisoma trivolvis Ð Ribeiroia ondatrae,environment,Density,Cercarial release,Change in prevalence,22,25,18,18,4,7,intermediate,warmest,coolest,TRUE,FALSE,"Paul and Johnson 2018, Paul et al. 2015"
+Culex tarsalis - Western equine encephalitis virus,vector,NA,Vector competence,R0,22.2,23,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,
+Culex tarsalis - West Nile virus,vector,NA,Vector competence,R0,27.1,23.9,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,
+Culex tarsalis - St. Louis encephalitis virus,vector,NA,Vector competence,R0,25.6,24.1,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,
+Aedes taeniorhynchus - Rift Valley fever virus,vector,NA,Vector competence,R0,24.6,25.9,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,
+Culex tarsalis - Western equine encephalitis virus,vector,NA,Parasite development rate,R0,38.8,23,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,
+Culex tarsalis - West Nile virus,vector,NA,Parasite development rate,R0,37.4,23.9,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,
+Culex tarsalis - St. Louis encephalitis virus,vector,NA,Parasite development rate,R0,36.8,24.1,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,
+Aedes taeniorhynchus - Rift Valley fever virus,vector,NA,Parasite development rate,R0,38,25.9,NA,NA,NA,NA,intermediate,intermediate,NA,FALSE,TRUE,
+Culex pipiens Ð West Nile virus,vector,Adult reproduction weighted by lifespan,Vector competence,R0,27.8,24.5,15.9,15.9,11.9,8.6,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al. 2019
+Aedes aegypti Ð dengue virus,vector,Adult reproduction weighted by lifespan,Vector competence,R0,31.2,29.1,27.6,27.6,3.6,1.5,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al. 2019
+Aedes aegypti - Zika virus,vector,Adult reproduction weighted by lifespan,Vector competence,R0,30.5,28.9,27.7,27.7,2.8,1.2,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al. 2019
+Culex annulirostris Ð Ross River virus,vector,Adult reproduction weighted by lifespan,Vector competence,R0,24.4,26.4,25.6,25.6,-1.2,0.8,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al. 2019
+Anopholes gambiae - Plasmodium vivax,vector,Adult reproduction weighted by lifespan,Vector competence,Transmission suitability,22.3,25,24.4,24.3,-2.1,0.7,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes gambiae - Plasmodium falciparum,vector,Adult reproduction weighted by lifespan,Vector competence,Transmission suitability,24,25,24.4,24.3,-0.4,0.7,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes stephensi - Plasmodium vivax,vector,Adult reproduction weighted by lifespan,Vector competence,Transmission suitability,22.3,24.6,24,24,-1.7,0.6,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes stephensi - Plasmodium falciparum,vector,Adult reproduction weighted by lifespan,Vector competence,Transmission suitability,24.2,24.8,24,24,0.2,0.8,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Culex pipiens Ð West Nile virus,vector,Adult reproduction weighted by lifespan,Parasite development rate,R0,37.1,24.5,15.9,15.9,21.2,8.6,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al. 2019
+Aedes aegypti Ð dengue virus,vector,Adult reproduction weighted by lifespan,Parasite development rate,R0,37,29.1,27.6,27.6,9.4,1.5,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al. 2019
+Aedes aegypti - Zika virus,vector,Adult reproduction weighted by lifespan,Parasite development rate,R0,36.1,28.9,27.7,27.7,8.4,1.2,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al. 2019
+Culex annulirostris Ð Ross River virus,vector,Adult reproduction weighted by lifespan,Parasite development rate,R0,33,26.4,25.6,25.6,7.4,0.8,intermediate,intermediate,intermediate,FALSE,TRUE,Mordecai et al. 2019
+Anopholes gambiae - Plasmodium vivax,vector,Adult reproduction weighted by lifespan,Parasite development rate,Transmission suitability,27.9,25,24.4,24.3,3.5,0.7,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes gambiae - Plasmodium falciparum,vector,Adult reproduction weighted by lifespan,Parasite development rate,Transmission suitability,25.7,25,24.4,24.3,1.3,0.7,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes stephensi - Plasmodium vivax,vector,Adult reproduction weighted by lifespan,Parasite development rate,Transmission suitability,29.3,24.6,24,24,5.3,0.6,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
+Anopholes stephensi - Plasmodium falciparum,vector,Adult reproduction weighted by lifespan,Parasite development rate,Transmission suitability,34.6,24.8,24,24,10.6,0.8,intermediate,intermediate,intermediate,FALSE,TRUE,Villena et al. preprint
